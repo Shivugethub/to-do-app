@@ -1,0 +1,22 @@
+Follow simple steps:
+
+1. Add "flutter_launcher_icons" Plugin to "pubspec.yaml"
+
+e.g. 
+
+    dependencies:
+      cupertino_icons: ^1.0.0
+      flutter_launcher_icons: ^0.8.1
+
+    flutter_icons:
+      image_path: "icon/icon.png"
+      android: true
+      ios: true
+
+2. Prepare an app icon for the specified path. e.g. icon/icon.png
+
+3. Execute command on the terminal to Create app icons:
+
+  flutter pub get
+
+  flutter pub run flutter_launcher_icons:main
